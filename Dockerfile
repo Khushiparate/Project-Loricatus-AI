@@ -9,4 +9,4 @@ COPY nids.py .
 
 RUN pip install scapy numpy scikit-learn
 
-CMD ["python", "nids,py"]
+CMD ["python", "nids.py"]
